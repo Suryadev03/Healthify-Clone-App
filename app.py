@@ -3,6 +3,9 @@ import google.generativeai as genai
 import pandas as pd
 import os
 
+from dotenv import load_dotenv
+load_dotenv()
+
 api = os.getenv('GOOGLE_API_KEY')
 genai.configure(api_key=api)
 model = genai.GenerativeModel('gemini-2.5-flash-lite')
@@ -29,7 +32,7 @@ fittness = st.sidebar.slider('Rate your fittness between 0-5',0,5,step=1)
 st.sidebar.write(f'{name} your BMI is: {round(bmi,2)} Kg/m^2')
 
 # Lets use genai model to get the output
-user_query = st.text_input('Enter your question here')
+user_query = st.text_input('Enter your question here:')
 prompt = f'''Assume you are a health expert. You are required to
 answer the question asked by the user. Use the following details provided by 
 the user.
