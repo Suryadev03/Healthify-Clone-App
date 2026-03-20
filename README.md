@@ -3,6 +3,8 @@
 An AI-powered **Health & Nutrition Assistant App** inspired by Healthify-style platforms.  
 Provides **personalized diet plans, calorie insights, health recommendations, and lifestyle guidance** based on user inputs such as age, weight, goals, and food habits.
 
+Web Link: https://healthify-clone-app-7fwntnyzdqczoa3nymtqhq.streamlit.app/
+
 ---
 
 ## 🚀 Features
