@@ -43,12 +43,21 @@ Provides **personalized diet plans, calorie insights, health recommendations, an
 ---
 
 ## 📂 Project Structure
+
+
 healthify-clone/
+
 │── backend/
+
 │   ├── main.py          # FastAPI/Flask backend
+
 │   ├── requirements.txt # Backend dependencies
+
 │── frontend/
+
 │   ├── app.py           # Streamlit frontend
+
 │   ├── requirements.txt # Frontend dependencies
+
 │── .env                 # Environment variables (API key)
 │── README.md            # Documentation
